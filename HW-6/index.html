@@ -6,11 +6,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
     <title>Document</title>
 </head>
 
 <body>
 
+    <div class="container">
+
+        <section class="login">
+            <header>
+                <div class="img-container">
+                    <img src="images.png" alt="">
+                </div>
+                <h2>LOG IN</h2>
+            </header>
+            <form>
+                <div class="input-control">
+                    <i class="bi bi-person-fill"></i>
+                    <input type="text" id="name" placeholder="UserName">
+                </div>
+                <div class="input-control">
+                    <i class="bi bi-lock-fill"></i>
+                    <input type="text" id="password" placeholder="PassWord">
+                </div>
+                <div class="input-control">
+                    <input type="checkbox" id="rememberme">
+                    <label>Remember Me</label>
+                </div>
+                <div class="bnt-container">
+                    <input type="submit" value="Login" class="btn">
+                </div>
+            </form>
+            <footer>
+                <a href="#">Forget Password?</a>
+            </footer>
+        </section>
+
+    </div>
 
     <script src="app.js"> </script>
 </body>

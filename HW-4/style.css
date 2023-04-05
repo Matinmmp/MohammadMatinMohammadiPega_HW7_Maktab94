@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+
+}
+
+.container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+.box div{
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+    margin: 0 auto;
+    border-radius: .5rem;
+    background-color: rgb(0, 54, 54);
+    color: #fff;
+    padding: .5rem;
+}
+
+.notification{
+    width: 25rem;
+    border-radius: .5rem;
+    border: .1rem solid black;
+    padding: 1rem;
+    text-align: center;
+}
+
+.notification header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notification .body{
+    padding-block: .5rem;
+    text-align: center;
+}
+
+.notification button{
+    outline: none;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+    padding: .5rem 1rem;
+    color: #fff;
+}
+
+.notification button:active{
+   transform: scale(.98);
+}
+
+
+.error{
+    background-color: rgb(255, 149, 149);
+    border-color: rgb(255, 56, 99);
+}
+
+.error header{
+    color: rgb(237, 9, 59);
+}
+
+.error .body {
+    color: #fff;
+}
+
+.error button{
+    border: .1rem solid #fff;
+    background-color: rgb(255, 56, 99);
+}
+
+
+.warning{
+    background-color: rgb(255, 214, 149);
+    border-color: rgb(255, 111, 0);
+}
+
+.warning header{
+    color: rgb(255, 166, 0);
+}
+
+.warning .body {
+    color: #fff;
+}
+
+.warning button{
+    border: .1rem solid #fff;
+    background-color: rgb(255, 111, 0);
+}
+
+
+.succuss{
+    background-color: rgb(154, 255, 149);
+    border-color: rgb(89, 255, 56);
+}
+
+.succuss header{
+    color: rgb(5, 161, 0);
+}
+
+.succuss .body {
+    color: #fff;
+}
+
+.succuss button{
+    border: .1rem solid #fff;
+    background-color: rgb(89, 255, 56);
+}

@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+input[type="text"] {
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: .5rem;
+
+}
+
+input[type="text"]::placeholder {
+    color: #ffffffa0
+}
+
+i {
+    color: #fff;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.login {
+    width: 22rem;
+    height: 32rem;
+    border-radius: .5rem;
+    padding-inline: 2rem;
+    background: rgb(105, 130, 255);
+    background: linear-gradient(180deg, rgba(105, 130, 255, 1) 0%, rgba(199, 12, 255, 1) 100%);
+}
+
+.login header {
+    height: 13rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.img-container {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.img-container img {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    align-self: flex-end;
+    margin-bottom: 1.5rem;
+}
+
+.login header h2 {
+    color: #fff;
+}
+
+.login form {
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.login form .input-control {
+    border-bottom: 1px solid #fff;
+}
+
+.login form .input-control:has(input[type="checkbox"]) {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border: none;
+    font-size: .8rem;
+    color: #fff;
+    gap: .5rem;
+}
+
+.bnt-container {
+    text-align: center;
+}
+
+.btn {
+    padding: .8rem 1.6rem;
+    color: blue;
+    outline: none;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.btn:active{
+    transform: scale(.98);
+}
+
+
+.login footer {
+    height: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+.login footer a{
+  
+    text-decoration: none;
+    color: #fff;
+    font-size: .8rem;
+}
